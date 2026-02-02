@@ -2,22 +2,23 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>For My Cat 🐱</title>
+  <title>💖</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <div class="container">
-  <h1>Hey Cat 🐱</h1>
+  <div class="teddy" id="teddy"></div>
 
-  <div id="messageBox">
-    <p id="message"></p>
+  <p id="message"></p>
+
+  <div id="buttons" class="buttons">
+    <button id="yesBtn" onclick="yesClicked()">Yes 💕</button>
+    <button id="noBtn" onmouseover="moveNo()">No 🙈</button>
   </div>
 
-  <button onclick="nextMessage()">Next 💌</button>
+  <button id="nextBtn" onclick="nextMessage()">Next 💌</button>
 </div>
-
-<div class="heart">❤️</div>
 
 <script src="script.js"></script>
 </body>
